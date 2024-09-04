@@ -1,6 +1,10 @@
 import './App.module.css'
+
 import Profile from '../Profile/Profile'
 import userData from '../../userData.json'
+
+import FriendList from '../FriendList/FriendList'
+import friends from '../../friends.json'
 
 export default function App () {
   return (
@@ -11,7 +15,8 @@ export default function App () {
     location={userData.location}
     avatar={userData.avatar}
     stats={userData.stats}
-    ></Profile>
+    />
+    <FriendList friends={friends}/>
     </div>
-  )
+  );
 }

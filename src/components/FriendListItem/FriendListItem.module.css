@@ -1,0 +1,29 @@
+.container {
+    border: 2px solid #2E2E2E;
+    border-radius: 10px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.name {
+    font-size: 20px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.green {
+    font-size: 16px;
+    font-family: "Inter Tight", sans-serif;
+    color: green;
+}
+
+.red {
+    font-size: 16px;
+    font-family: "Inter Tight", sans-serif;
+    color: red;
+}
